@@ -1,0 +1,39 @@
+npm - node package manager(2010)
+it is a tool that comes bundled with NodeJs
+NPM is used to manage packages and dependencies for NodeJS projects,making it easier to install and update libraries and frameworks.
+
+modules-things installed in nodejs core
+
+package-things installed through npm
+
+node script.js for running files
+
+dependencies - projects packages & their dependencies
+
+dev-dependencies - those packages that are needed while development stage but they are of no use after deployment.
+ 
+concurrency -> running multiple files multiple dependencies...
+
+
+script - start and default scripts( direct script for node index.js)
+default script - start, test
+custom script -everything else,run script is custom script, and to run this we use (npm run dev)
+
+"color":"echo \"u001b]36mRunning tests...\u001b[39m\" && node script.js",
+
+const http= require('http')
+
+http.createServer([options][,requestListner])
+
+http.createServer(function(req,res){
+       res.end("Hello world")
+})
+
+server.listen(3000)
+
+
+// "scripts": {
+//     "start":"node script.js",//default script
+//     "end":"End of code", //custum script
+//     "test": "echo \"Error: no test specified\" && exit 1"//default script
+//   },
