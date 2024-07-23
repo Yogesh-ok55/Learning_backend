@@ -32,8 +32,23 @@ http.createServer(function(req,res){
 server.listen(3000)
 
 
-// "scripts": {
-//     "start":"node script.js",//default script
-//     "end":"End of code", //custum script
-//     "test": "echo \"Error: no test specified\" && exit 1"//default script
-//   },
+"scripts": {
+    "start":"node script.js",//default script
+     "end":"End of code", //custum script
+     "test": "echo \"Error: no test specified\" && exit 1"//default script
+   },
+
+
+->Modules
+1)build-in modules - installed in nodejs core
+2)local modules - created locally by developer
+3)third-party modules - installed via npm package
+
+Built-in modules-
+os - provides info about the os
+Path - provides utility function for working with file path
+fs - File system operation
+http - create http 
+
+
+
