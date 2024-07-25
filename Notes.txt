@@ -50,5 +50,63 @@ Path - provides utility function for working with file path
 fs - File system operation
 http - create http 
 
+express - 
+express js frameworks ->it is a beckned web application framework or designed
+for building web application and apis
+
+it manages everything
+
+it manages everything from receiving the request and giving the response
+
+also called as a npm package
+
+
+//points between request and response
+
+//it is a request handler that allows you to intercept and manipulate request and response 
+before they reach route handlers . they are the function that are invoked by express JS routing layers.
+
+
+client --------------------->(request) server-----------------> (response)client
+
+------------> parts of server(first one to receive req at server side)--->after processing
+   to fronted       <---------   from route to      <----------------- server
+
+->application layer middleware(app.use()->used to log the data of client on console)
+->router level middleware
+->erro handling middleware
+->built-in middleware // used for error handling //written at the last after all routes executed
+app.use(express.static('public'))
+->third-party middleware
+
+->middleware chaining -> multiple middleware working together to console the data 
+                                        or 
+  it can be defined as chaining of middleware one after another . hence , creating a chain of
+  a function that are executed inorder.
+
+  next() is responsible  for calling the next middleware if there is one.
+
+  ########################### HTTP STATUS CODE ########################################
+
+  -> these are the series of numbers and brief phrases that provide the information
+  on the status of url request. each code indicates a different type of  response
+  to a request such as success , failure , redirect , client ,error , server error and
+  informational response.
+
+  1XX -> informational codes
+  2XX -> success code
+  3XX -> Redirectional codes
+  4XX -> Client error codes
+  5xx -> server error codes
+url length 1024 bits approx 1mb
+---------------------------most common codes-----------------
+
+--> http request mathods..
+-->client-server architecture->
+1,2,3,n type architecture
+
+p2p network both server both client
+thin-client arch..
+fat-client arch..
 
 

@@ -47,7 +47,7 @@ const homepage_css = fs.readFileSync('./public/style.css')
 const server = http.createServer((req,res)=>{
     console.log(req.url)
     if(req.url==='/'){
-        res.writeHead(200,{'content-type':'text/html'})
+        res.writeHead(200,{'content-type':'text/html'})//http status codes
         res.write(homepage)
         res.end();
     }
