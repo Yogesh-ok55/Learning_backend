@@ -109,4 +109,45 @@ p2p network both server both client
 thin-client arch..
 fat-client arch..
 
+---------------Blocking-code------------------------------------
+
+what is blocking code?
+->it refers to the blocking of further operations until the current 
+operation finishesh
+  bloacking methods are executed syncronously 
+  ex: readfilesync , writefilesync
+
+what is non-bloacking code?
+->it refers to the program that does not block the excution of 
+further operations on blocking methods are executed asynchronous
+ ex: readfile,writefile etc...
+
+ #### session , ### cookies
+for cookies -> npm i cookie-parser express-session
+
+what are cookies?
+
+->these are small pieces of data stored on the client browser by 
+website they visit they serve various purposes in web development
+such as maintaining user sessions personalizing user experiences
+and tracking user behaviour , cookies are set along with http request
+to the server allowing websites to remember user preferences and 
+state between different pages or visit
+
+uses of cookies->
+1) maintain state
+2) user authentication
+3) tracking
+4) user behaviour
+
+types of cookies
+
+1) session cookies// which maintain session
+2)persistant cookies//no expiry date 
+3)secure cookies// for security purposes
+4)third-party express
+
+sessions -> period maintain kar ke rakhna
+
+
 
